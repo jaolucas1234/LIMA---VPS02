@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: white;
+
+    & .insta{
+        padding: 0.5vh;
+        background: darkblue;
+
+        & a{
+            padding: 0.3vw;
+            background: purple;
+            border-radius: 0.5vw;
+            
+        }
+    }
+ }
+
+.container1{
+    display: flex;
+    padding: 0.7vh;
+    width: 100%;
+    background: rgb(143, 113, 212);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+
+    & .titulo{
+
+        & img{
+            width: 17%;
+            height: 17%;
+        }
+ 
+    }
+
+
+    & .links a{
+        text-decoration: none;
+        margin: 1.5vh;
+        color: white;
+        padding: 1.5vh;
+ 
+
+    }
+
+    & .links :hover{
+        color: gray;
+        border-radius: 5vh;
+    }
+
+}
+
+main{
+
+    & .container2{
+        width: 100%;
+        margin-top: 5vw;
+
+        & img{
+            width: 100%;
+            height: 60vh;
+        }
+    }
+
+    & .container3{
+        width: 97vw;
+        margin-top: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1.5vw;
+        background: rgb(221, 219, 219);
+
+        & .div1{
+            display: flex;
+            align-items: center;
+            
+            
+
+            & img{
+                width: 4vw;
+                padding: 0.7vw;
+                background: rgb(235, 231, 231);
+                border-radius: 5vw;
+            
+            }
+        }
+        & .div2{
+            display: flex;
+            align-items: center;
+            
+
+            & img{
+                width: 4vw;
+                padding: 0.7vw;
+                background: rgb(235, 231, 231);
+                border-radius: 5vw;
+            
+            }
+        }
+        & .div3{
+            display: flex;
+            align-items: center;
+            
+
+            & img{
+                width: 5vw;
+                padding: 0.7vw;
+                background: rgb(235, 231, 231);
+                border-radius: 5vw;
+            
+            }
+        }
+        & .div4{
+            display: flex;
+            align-items: center;
+            
+
+            & img{
+                width: 4vw;
+                padding: 0.7vw;
+                background: rgb(235, 231, 231);
+                border-radius: 5vw;
+            
+            }
+        }
+
+    }
+    & .container4{
+
+        & .titulo{
+            font-size: 1.5vw;
+            align-self: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+
+        & .part1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & .div5{
+                padding: 1vw;
+                text-align: center;
+            }
+            & .div6{
+                padding: 1vw;
+                text-align: center;
+            }
+            & .div7{
+                padding: 1vw;
+                text-align: center;
+            }
+            & .div8{
+                padding: 1vw;
+                text-align: center;
+            }
+        }
+        & .part2{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+            & .div9{
+                padding: 2vw;
+
+                & img{
+                    width: 20vw;
+                }
+            }
+
+            & .div10{
+                padding: 2vw;
+
+                & img{
+                    width: 20vw;
+                }
+            }
+
+            & .div11{
+                padding: 2vw;
+
+                & img{
+                    width: 20vw;
+                }
+            }
+        }
+        &  .part3{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+            & .div12{
+                padding: 2vw;
+
+                & img{
+                    width: 20vw;
+                }
+            }
+
+            & .div13{
+                padding: 2vw;
+
+                & img{
+                    width: 20vw;
+                }
+            }
+
+            & .div14{
+                padding: 2vw;
+
+                & img{
+                    width: 20vw;
+                }
+            }
+        }
+    }
+    & .container5{
+        text-align: center;
+        padding: 3vh;
+        background:rgb(143, 113, 212); 
+        color: white;
+
+        & .caixatexto{
+            
+        
+            & input{
+                width: 40vw;
+                height: 5vh;
+                border-radius: 0.4vw;
+            }
+        }
+    }
+    
+}
+
+.container6{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(166, 138, 230);
+    padding: 5vh;
+}
